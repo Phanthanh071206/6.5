@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Bài 5</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr; /* 3 cột với tỷ lệ 1:2:1 */
+            grid-template-rows: 100px auto 50px; /* Hàng 1: 100px, Hàng 2: tự động, Hàng 3: 50px */
+            grid-row-gap: 5px; /* Thêm khoảng cách giữa các hàng */
+            width: 100%;
+            height: 150vh;
+            background-color: white; /* Màu nền chung */
+            color: rgba(255, 255, 0, 0.833);
+            font-size: 18px;
+        }
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: rgba(0, 255, 55, 0.744);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem voluptates qui exercitationem. Tenetur, voluptas enim nemo provident recusandae quidem hic libero repellendus, soluta modi minima delectus, sit aut eveniet doloremque!
+        Facilis consequatur nihil, labore doloremque nam nesciunt suscipit commodi totam aliquid repudiandae cumque distinctio ratione dolor voluptatem sunt unde dolorum voluptatibus doloribus expedita quod, nostrum placeat assumenda non. Quod, ipsam.
+        Eum excepturi maxime unde. Maxime soluta facilis deserunt quo nihil? Rem nihil aliquid ducimus exercitationem nesciunt, consequatur facilis tempore, quae nulla cum ipsa! Necessitatibus quis incidunt consequatur architecto sapiente praesentium.
+        Quia illum ipsam ducimus esse magnam, temporibus beatae fugit? Earum sequi provident delectus molestiae temporibus commodi nesciunt blanditiis, incidunt similique veritatis ipsum aspernatur laboriosam iusto voluptate harum, accusamus, maiores possimus?</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div>
+
+</body>
+</html>
